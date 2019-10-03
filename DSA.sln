@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA", "DSA\DSA.csproj", "{46688A35-ACBE-418B-9CAE-6B913CD5F4DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DSA\DataStructures.csproj", "{46688A35-ACBE-418B-9CAE-6B913CD5F4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Sortings\Algorithms.csproj", "{BCC4954F-B730-4585-B56C-D21AD499CA33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{DA64AEE2-1020-4926-B4F2-E5FA0EC4D19C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{46688A35-ACBE-418B-9CAE-6B913CD5F4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46688A35-ACBE-418B-9CAE-6B913CD5F4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46688A35-ACBE-418B-9CAE-6B913CD5F4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC4954F-B730-4585-B56C-D21AD499CA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC4954F-B730-4585-B56C-D21AD499CA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC4954F-B730-4585-B56C-D21AD499CA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC4954F-B730-4585-B56C-D21AD499CA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA64AEE2-1020-4926-B4F2-E5FA0EC4D19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA64AEE2-1020-4926-B4F2-E5FA0EC4D19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA64AEE2-1020-4926-B4F2-E5FA0EC4D19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA64AEE2-1020-4926-B4F2-E5FA0EC4D19C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
