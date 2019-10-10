@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Sortings\Algo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{DA64AEE2-1020-4926-B4F2-E5FA0EC4D19C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSAUnitTests", "DSAUnitTests\DSAUnitTests.csproj", "{8F7960FB-71B9-45EC-99CA-0888ABA2D080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingUnitTests", "SortingUnitTests\SortingUnitTests.csproj", "{4ECD89F1-F31B-418D-AC21-C110E91C24B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{DA64AEE2-1020-4926-B4F2-E5FA0EC4D19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA64AEE2-1020-4926-B4F2-E5FA0EC4D19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA64AEE2-1020-4926-B4F2-E5FA0EC4D19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7960FB-71B9-45EC-99CA-0888ABA2D080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7960FB-71B9-45EC-99CA-0888ABA2D080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7960FB-71B9-45EC-99CA-0888ABA2D080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7960FB-71B9-45EC-99CA-0888ABA2D080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECD89F1-F31B-418D-AC21-C110E91C24B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECD89F1-F31B-418D-AC21-C110E91C24B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECD89F1-F31B-418D-AC21-C110E91C24B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECD89F1-F31B-418D-AC21-C110E91C24B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

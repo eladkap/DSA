@@ -15,6 +15,10 @@ namespace DSA
         private int currRow = 0;
         private int currCol = -1;
 
+        public int Rows { get{ return rows; } }
+
+        public int Cols { get { return cols; } }
+
         public T Current
         {
             get
@@ -37,6 +41,19 @@ namespace DSA
             }
         }
 
+        public Matrix<T> Copy()
+        {
+            Matrix<T> copiedMatrix = new Matrix<T>(rows, cols);
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < cols; j++)
+                {
+                    copiedMatrix.SetValueAt(i, j, mat[i, j]);
+                }
+            }
+            return copiedMatrix;
+        }
+
         public override string ToString()
         {
             string s = "";
@@ -49,6 +66,28 @@ namespace DSA
                 s += "\n";
             }
             return s;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+            {
+                return false;
+            }
+            if (rows != ((Matrix<T>)obj).Rows || cols != ((Matrix<T>)obj).Cols)
+            {
+                return false;
+            }
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < cols; j++)
+                {
+                    if (!mat[i, j].Equals(((Matrix<T>)obj).mat[i, j])){
+                        return false;
+                    }
+                }
+            }
+            return true;
         }
 
         public T GetValueAt(int row, int col)
@@ -101,6 +140,19 @@ namespace DSA
         public IEnumerator GetEnumerator()
         {
             return (IEnumerator)this;
+        }
+
+        public Matrix<T> Transpose()
+        {
+            Matrix<T> tra = new Matrix<T>(cols, rows);
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < cols; j++)
+                {
+                    tra.SetValueAt(j, i, mat[i, j]);
+                }
+            }
+            return tra;
         }
     }
 }
