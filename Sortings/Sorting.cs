@@ -111,7 +111,7 @@ namespace Sortings
 
         public static int Select(int[] array , int k)
         {
-            int index = -1;
+            int index = 0;
             return index;
         }
 
