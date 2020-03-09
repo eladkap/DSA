@@ -1,7 +1,7 @@
 # DSA
 Data Structures and Algorithms
 
-###Data Structures
+### Data Structures
 - String
 - Array
 - Queue
@@ -11,7 +11,7 @@ Data Structures and Algorithms
 - Binary Tree
 - Graph
 
-###Algorithms
+### Algorithms
 - Sorting and Searching
 - Graph Algorithms (Pathfinding)
 - Dynamic Programming
